@@ -1,0 +1,47 @@
+/* Google font */
+.fira-sans {
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* Common Style */
+.btn1{
+    height: 45px;
+    padding: 13.5px 27px;
+    background-color: #006A50;
+    color: white;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.btn2{
+    height: 38.5px;
+    padding: 10.5px 20.5px;
+    background-color: #006A50;
+    color: white;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.cmn-p{
+    font-size: 16px;
+    color: #0E0E0E;
+}
+.cmn-h2{
+    color: black;
+    font-size: 40px;
+    font-weight: 700;
+}
+.cmn-h3{
+    color: #0E0E0E;
+    font-size: 32px;
+    font-weight: 700;
+}
+.cmn-h4{
+    color: #0E0E0E;
+    font-size: 20px;
+    font-weight: 700;
+}
