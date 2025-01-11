@@ -123,8 +123,6 @@ nav button{
 .banner-img{
     height: 400px;
     width: 474px;
-    /* background-image: url();
-    background-size: cover; */
 }
 main{
     max-width: 1280px;
@@ -187,7 +185,7 @@ main{
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
     padding: 48px 24px;
-    background-image: url(/image/quote-bg.png);
+    background-image: url("../image/quote-bg.png");
     background-repeat: no-repeat;
     background-position-x: 24px;
     background-position-y: 24px;
