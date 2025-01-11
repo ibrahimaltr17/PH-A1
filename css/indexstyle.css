@@ -35,6 +35,7 @@
 }
 .btn3{
     color: white;
+    width: fit-content;
     font-size: 16px;
     font-weight: 600;
     padding: 11px 20px;
@@ -146,8 +147,13 @@ main{
     width: 410px;
     padding: 32px;
     border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .vision-card img{
+    height: 64px;
+    width: 64px;
     margin-bottom: 24px;
 }
 .vision-card button{
@@ -259,7 +265,7 @@ main{
     border-style: none;
     text-align: center;
     /* color: rgba(14, 14, 14, 0.3); */
-    font-size: 20;
+    font-size: 24px;
 
 }
 
@@ -274,6 +280,7 @@ main{
     align-items: center;
     padding: 80px 100px;
     text-align: center;
+    margin-bottom: 80px;
 }
 .Newsletter p{
     max-width: 622px;
@@ -287,8 +294,48 @@ main{
     width: 100%;
     padding-left: 40px;
     border-radius: 8px 0 0 8px;
-    border-style: none
+    border-style: none;
+    font-size: 18px;
 }
 #subscribe{
     border-radius: 0 8px 8px 0;
+}
+/* Footer Style */
+footer{
+    padding: 50px 160px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+footer hr{
+    width: 1022px;
+    color: rgba(14, 14, 14, 0.1);
+}
+.social-links{
+    display: flex;
+    gap: 23px;
+}
+
+/* Hover Effect on button */
+.btn1:hover{
+    background-color: #04b689;
+}
+.btn2:hover{
+    background-color: #04b689;
+}
+.amnt-btn:hover{
+    background-color: rgba(198, 228, 214, 1);
+}
+.blue-card button:hover{
+    background-color: rgb(5, 46, 118);
+}
+.green-card button:hover{
+    background-color: rgb(0, 107, 59);
+}
+.yollow-card button:hover{
+    background-color: rgb(201, 141, 2);
 }
