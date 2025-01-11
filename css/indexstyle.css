@@ -8,6 +8,10 @@
     "wdth" 100;
 }
 /* Common Style */
+*{
+    padding: 0;
+    margin: 0;
+}
 .btn1{
     height: 56px;
     padding: 17px 34px;
@@ -27,9 +31,17 @@
     font-size: 18px;
     font-weight: 600;
 }
+.btn3{
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 11px 20px;
+    border-radius: 8px;
+    border: none;
+}
 .cmn-p{
     font-size: 16px;
-    color: #0E0E0E;
+    color: rgba(14, 14, 14, 0.7);
 }
 .cmn-h2{
     color: black;
@@ -42,9 +54,15 @@
     font-weight: 700;
 }
 .cmn-h4{
-    color: #0E0E0E;
+    color: rgba(14, 14, 14, 0.8);
     font-size: 20px;
     font-weight: 700;
+}
+body{
+    background-color: #F1F1F3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 header{
     display: flex;
@@ -96,10 +114,73 @@ nav button{
 .banner-content h1{
     font-size: 45px;
     font-weight: 700;
+    margin: 20px 0;
 }
 .banner-img{
     height: 400px;
     width: 474px;
     background-image: url(/image/hero.png);
     background-size: cover;
+}
+main{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.vision-of-future{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.vision-container{
+    display: flex;
+    gap: 24px;
+}
+.vision-card{
+    height: 275px;
+    width: 410px;
+    padding: 32px;
+    border-radius: 16px;
+}
+.vision-card img{
+    margin-bottom: 24px;
+}
+.vision-card button{
+    margin-top: 24px;
+}
+.vision-card p{
+    margin-top: 12px;
+}
+.blue-card{
+    background-color: rgba(84, 144, 245, 0.2);
+}
+.blue-card button{
+    background-color: rgba(84, 144, 245, 1);
+}
+.green-card{
+    background-color: rgba(198, 228, 214, 1);
+}
+.green-card button{
+    background-color: rgba(9, 161, 92, 1);
+}
+.yollow-card{
+    background-color: rgba(247, 235, 207, 1);
+}
+.yollow-card button{
+    background-color: rgba(255, 194, 57, 1);
+}
+.dr-yunus{
+    background-color: white;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    padding: 48px 24px;
+    background-image: url(/image/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position-x: 24px;
+    background-position-y: 24px;
+}
+.p1{
+    margin-bottom: 12px;
+}
+.p2{
+    color: rgba(14, 14, 14, 0.6);
 }
