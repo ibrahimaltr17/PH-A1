@@ -9,17 +9,18 @@
 }
 /* Common Style */
 .btn1{
-    height: 45px;
-    padding: 13.5px 27px;
+    height: 56px;
+    padding: 17px 34px;
     background-color: #006A50;
     color: white;
     border-radius: 8px;
     font-size: 18px;
     font-weight: 600;
+    border-style: none;
 }
 .btn2{
-    height: 38.5px;
-    padding: 10.5px 20.5px;
+    height: 48px;
+    padding: 13px 26px;
     background-color: #006A50;
     color: white;
     border-radius: 8px;
@@ -44,4 +45,61 @@
     color: #0E0E0E;
     font-size: 20px;
     font-weight: 700;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* Navbar Style */
+nav{
+    height: 100px;
+    width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 24px 160px;
+}
+nav button{
+    height: 52px;
+    background-color: transparent;
+    padding: 15px 30px;
+    border: 2px solid #006A50;
+    color: #006A50;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+/* Heroarea Style */
+.banner{
+    width: 1280px;
+    height: 560px;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.banner-content{
+    max-width: 622px;
+    max-height: 326px;
+}
+.banner-content h5{
+    color: rgba(14, 14, 14, 0.5);
+    font-size: 24px;
+    font-weight: 600;
+}
+.banner-content h1{
+    font-size: 45px;
+    font-weight: 700;
+}
+.banner-img{
+    height: 400px;
+    width: 474px;
+    background-image: url(/image/hero.png);
+    background-size: cover;
 }
