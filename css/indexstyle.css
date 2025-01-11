@@ -24,12 +24,14 @@
 }
 .btn2{
     height: 48px;
+    width: fit-content;
     padding: 13px 26px;
     background-color: #006A50;
     color: white;
     border-radius: 8px;
     font-size: 18px;
     font-weight: 600;
+    border-style: none;
 }
 .btn3{
     color: white;
@@ -49,7 +51,7 @@
     font-weight: 700;
 }
 .cmn-h3{
-    color: #0E0E0E;
+    color: rgba(14, 14, 14, 0.8);
     font-size: 32px;
     font-weight: 700;
 }
@@ -69,6 +71,7 @@ header{
     flex-direction: column;
     align-items: center;
 }
+
 /* Navbar Style */
 nav{
     height: 100px;
@@ -126,10 +129,13 @@ main{
     max-width: 1280px;
     margin: 0 auto;
 }
+
+/* Vision of Future Style */
 .vision-of-future{
     display: flex;
     flex-direction: column;
     gap: 32px;
+    margin-bottom: 80px;
 }
 .vision-container{
     display: flex;
@@ -168,6 +174,8 @@ main{
 .yollow-card button{
     background-color: rgba(255, 194, 57, 1);
 }
+
+/* Dr. Yunus section style */
 .dr-yunus{
     background-color: white;
     border: 1px solid rgba(14, 14, 14, 0.15);
@@ -183,4 +191,35 @@ main{
 }
 .p2{
     color: rgba(14, 14, 14, 0.6);
+}
+
+/* Recent News Style */
+
+.news-card{
+    border-radius: 24px;
+    padding: 48px;
+    background-color: white;
+    margin: 24px 0;
+    display: flex;
+    align-items: center;
+}
+.news-p{
+    padding: 24px 0 32px 0;
+}
+.news-img img{
+    border-radius: 24px;
+}
+.news-content{
+    height: 290px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 24px;
+}
+.news-content img{
+    height: 40px;
+    width: 134px;
+}
+.image-right{
+    margin-inline: 0 24px;
 }
