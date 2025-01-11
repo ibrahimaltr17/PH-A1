@@ -13,7 +13,7 @@
     margin: 0;
 }
 .btn1{
-    height: 56px;
+    width: fit-content;
     padding: 17px 34px;
     background-color: #006A50;
     color: white;
@@ -194,7 +194,9 @@ main{
 }
 
 /* Recent News Style */
-
+.recent-news{
+    margin-bottom: 80px;
+}
 .news-card{
     border-radius: 24px;
     padding: 48px;
@@ -222,4 +224,71 @@ main{
 }
 .image-right{
     margin-inline: 0 24px;
+}
+
+/* Donate Section Style */
+.donate-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-inline: 80px;
+    gap: 32px;
+    margin-bottom: 80px;
+}
+.amount{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+.amnt-btn{
+    padding: 40px;
+    background-color: white;
+    border-radius: 16px;
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 40px;
+    font-weight: 700;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
+.active-btn{
+    background-color: rgba(198, 228, 214, 1);
+}
+.donate-container input{
+    height: 64px;
+    width: 1032px;
+    border-style: none;
+    text-align: center;
+    /* color: rgba(14, 14, 14, 0.3); */
+    font-size: 20;
+
+}
+
+/* News letter Style */
+.Newsletter{
+    background-color: rgba(198, 228, 214, 1);
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 100px;
+    text-align: center;
+}
+.Newsletter p{
+    max-width: 622px;
+}
+.email-container{
+    width: 750px;
+    display: flex;
+    gap: 0;
+}
+.email-container input{
+    width: 100%;
+    padding-left: 40px;
+    border-radius: 8px 0 0 8px;
+    border-style: none
+}
+#subscribe{
+    border-radius: 0 8px 8px 0;
 }
